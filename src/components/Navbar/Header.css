@@ -1,0 +1,89 @@
+.Navbr-Container{
+    display: flex;
+    background-color:rgba(31, 28, 28, 0.635);
+    color: white;
+    position: fixed;
+    overflow:scroll;
+    width: 80rem;
+
+}
+.logo{    margin-top: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    text-decoration: none;
+    list-style-type: none;
+
+
+
+}
+.List{
+  
+    display: flex;
+    margin-top: 0.2rem;
+   
+
+    
+ 
+    
+
+    
+
+}
+li{
+    margin-left: 3rem;
+    display: flex;
+    margin-top: 1.5rem;
+    font-style: italic;
+    font-weight: 700;
+    color: antiquewhite;
+
+
+   
+    text-decoration: none;
+
+    list-style-type: none;
+;}
+.logo:hover{
+
+   color: red;
+   
+}
+.Auth-Ican{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 49rem;
+}
+
+
+.Loading{
+    text-align: center;
+    justify-content: center;
+    margin-top:16rem;
+    margin-left: 50%;
+    
+ 
+        width: 48px;
+        height: 48px;
+        border: 5px solid #FFF;
+        border-bottom-color: #FF3D00;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+        }
+    
+        @keyframes rotation {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+        } 
+        .abt{
+            cursor: pointer;
+
+        }
+        .abt:hover{
+
+            color: #FF3D00;
+        }

@@ -1,0 +1,23 @@
+.Container-Auth{
+    display: flex;
+    background-color: aqua;
+    height: 12rem;
+    justify-content: center;
+    align-items: center;
+    width: 27rem;
+}
+.Container-Auth input{
+    width: 20rem;
+   margin-left: 2rem;
+   height: 1.2rem;
+}
+.Input_email{
+    
+    
+margin-left: 4rem;
+
+}
+.Container-Auth label{
+    margin-left: 2rem;
+}
+

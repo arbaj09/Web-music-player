@@ -1,0 +1,85 @@
+
+
+.Main_container{
+
+background: url('/public/photos/Backround-Main.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(rgb(48, 41, 41), rgb(255, 30, 30), rgb(16, 146, 7), alpha);
+}
+.main{
+    overflow: scroll;
+    margin-top: 5rem;
+
+
+
+    margin-bottom: 120px;
+
+
+ 
+    display: flex;
+    height: 36rem;
+    width: 48rem;
+    justify-self: center;
+    align-self: center;
+    border-radius: 1rem;
+    flex-direction: column;
+    background: url(https://images.unsplash.com/photo-1614149162883-504ce4d13909?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
+
+
+}
+.Song{
+
+    
+ 
+  
+
+    font-family: ui-monospace;
+    font-size: larger;
+    color: bisque;
+  
+    /* background-color: black; */
+    width: 22rem;
+    background-color: #585052a3;
+    display: flex;
+    margin-left: 0.5rem;
+    align-items: center;
+    height: 4rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-right: 21rem;
+    gap: 1rem;
+    font-style: italic;
+    flood-color: inherit;
+    font-feature-settings: initial;
+ 
+
+}
+
+
+.playIcon{
+    height: 32px;
+    width: 30px;
+}
+.CoverPhoto img{
+    width: 3rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+    height: 3rem;
+}
+
+
+.playGIF{
+    display: contents;
+}
+.playGIF img{
+    height: 1.5rem;
+    width: 3rem;
+    margin-left: 2rem;
+}
+.playIcon:hover{
+    cursor: pointer;
+    color: red;
+}
+

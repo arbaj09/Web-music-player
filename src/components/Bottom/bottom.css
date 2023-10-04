@@ -1,0 +1,46 @@
+
+.Bottom-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+ 
+}
+input{
+
+
+
+    align-items: center;
+    width: 61rem;
+
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    width:81rem;
+
+    background: #151212;
+    height: 7rem;
+    color: wheat;
+    gap: 1rem;
+
+}
+.Icons{
+    height: 30px;
+    width: 30px;
+
+}
+
+.button img{
+    margin-left: 12rem;
+    /* background: transparent; */
+    height: 5rem;
+    width: 12rem;
+    border: 0.5rem aquamarine;
+    border-style: groove;
+    border-radius: 89rem;}
+#lol{
+    margin-left: 12rem;
+}
